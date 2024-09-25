@@ -1,0 +1,15 @@
+{
+  "hash": "d27d570e",
+  "configHash": "2a02e84c",
+  "lockfileHash": "4da8e7b2",
+  "browserHash": "b7eb3801",
+  "optimized": {
+    "stompjs": {
+      "src": "../../../../../node_modules/stompjs/index.js",
+      "file": "stompjs.js",
+      "fileHash": "4249d662",
+      "needsInterop": true
+    }
+  },
+  "chunks": {}
+}
