@@ -1,4 +1,4 @@
-import Stomp from 'stompjs';
+import { Stomp } from "./stomp"
 
 class WebSocketClient {
 	/**

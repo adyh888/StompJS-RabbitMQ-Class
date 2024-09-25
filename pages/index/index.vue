@@ -25,9 +25,9 @@
 			uni.$on('stompConnected2', function (data) {
 			        data.subscribe('/queue/202211075.1.*.web', function (res) {
 			        })
-			})	  
+			})
 			setTimeout(()=>{
-			        const stompWebsocket2 = new WebSocketClient('ws://web:web@172.16.10.59:50286/ws',"stompConnected2")
+			        const stompWebsocket2 = new WebSocketClient('ws://web:web@47.103.197.129:50286/ws',"stompConnected2")
 			        stompWebsocket2.webSocketInit()
 			},2000)
 		},
